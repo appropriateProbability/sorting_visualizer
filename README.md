@@ -27,3 +27,28 @@ Sorting Algorithm Visualizer is a Java-based desktop application that visualizes
    ```bash
    git clone https://github.com/appropriateProbability/sorting_visualizer.git
    cd sorting_visualizer
+2. Build the project using Maven:
+   ```bash
+   mvn clean package
+3. Run the application:
+   ```bash
+   java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml -jar target/sorting-algorithm-visualizer-1.0-SNAPSHOT.jar
+
+## Usage
+- Launch the application by running the JAR file.
+- Select a sorting algorithm from the dropdown list.
+- Enter the size of the array you want to visualize.
+- Click on the Sort button to start the visualization.
+- View the unsorted and sorted arrays along with the time taken in the output area.
+
+## Running the JAR Directly
+You can also double-click the JAR file to open the application if your system supports it.
+
+## Contributing
+Feel free to open issues or submit pull requests to improve the project!
+
+## Menu
+![image](https://github.com/user-attachments/assets/42c27cd1-bf95-46c6-b75a-a8ea47791511)
+
+## After Sorting Sample Image
+![image](https://github.com/user-attachments/assets/58a5204a-3bea-4220-8cea-0f95efab5fec)
